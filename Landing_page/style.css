@@ -76,6 +76,14 @@ nav ul li a{
     margin-top: 20px;
 }
 
+.content a:hover{
+   background-color: hsl(180, 100%, 10%);
+}
+
+.content a:active{
+    background-color: whitesmoke;
+}
+
 .back-video{
     position: fixed;
     top:0%;
@@ -124,6 +132,11 @@ body
 .social a:hover
 {
     background-color: skyblue;
+    border-radius: 20px;
+}
+
+.social a:active{
+    background-color: whitesmoke;
 }
 
 
